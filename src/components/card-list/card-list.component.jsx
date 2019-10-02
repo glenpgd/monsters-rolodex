@@ -1,4 +1,5 @@
 import React from 'react'
+import {shallow, mount, render} from 'enzyme';
 import {Card} from '../card/card.component';
 
 import './card-list.styles.css'
