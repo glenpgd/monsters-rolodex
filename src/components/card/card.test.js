@@ -1,5 +1,7 @@
 import React from 'react';
 import {shallow, mount, render} from 'enzyme';
-import Card from './card.component';
+import {Card} from './card.component';
 
-console.log(shallow(<Card />))
+it('expect to render Card component', () => {
+    expect(shallow(<Card />).length).toEqual(1)
+})
